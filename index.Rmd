@@ -12,7 +12,7 @@ Using the Seattle Sound Transit Data of October-November 2015, we will try to an
 **Loading neccessary packages, calling dataset and preparing it for analysis**
 
 
-```{r linkdata}
+```{r linkdata, results='hide', warning=FALSE, message=FALSE}
 library(ggplot2)
 library(magrittr)
 library(scales)
